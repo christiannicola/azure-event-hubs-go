@@ -1,4 +1,4 @@
-PACKAGE  = github.com/Azure/azure-event-hubs-go
+PACKAGE  = github.com/stoex/azure-event-hubs-go
 DATE    ?= $(shell date +%FT%T%z)
 VERSION ?= $(shell git describe --tags --always --dirty --match=v* 2> /dev/null || \
 			cat $(CURDIR)/.version 2> /dev/null || echo v0)
